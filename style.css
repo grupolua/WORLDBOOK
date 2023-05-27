@@ -1,7 +1,59 @@
-header{
-    background-color: rgb(199, 173, 251);
-    color: rgb(255, 255, 255);
+*{margin: 0;
+padding: 0;}
+
+.cabecalho{
+    background-color:#a874fc ; 
+width: 60%;
+color: ghostwhite;
+display: flex;
+justify-content: space-around;
 }
-img{
-    
+  
+  .cabecalho.imge{
+width: 100%;
+
+   }
+
+.pesquisar-item{
+    display: inline-block;
+   
 }
+.livro {
+  width: 100px;
+}
+
+.livros{
+  background-image: linear-gradient(#d7a2ff,#a366d1 );
+  width: 60%;
+  color: ghostwhite;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 24px 0;
+}
+.livros-org {
+ justify-content: center;
+}
+
+.pesquise {
+  background-color: #ffffff;
+ width: 20%;
+ display: flex;
+}
+.lupa {
+  width: 10%;
+}
+
+.altaa {
+  background-color: #d7a2ff;
+  color: cornsilk;
+  width: 60%;
+
+}
+
+.org-liv{
+  display: grid;
+  grid-template-columns: 10% 10% 10% 10% 10% ;
+  text-align: center;
+}
+
