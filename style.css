@@ -52,8 +52,11 @@ width: 100%;
 }
 
 .org-liv{
-  display: grid;
+  list-style: none;;
+  display: flex;
+  justify-content: space-around;
   grid-template-columns: 10% 10% 10% 10% 10% ;
   text-align: center;
 }
+
 
